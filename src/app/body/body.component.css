@@ -1,0 +1,72 @@
+.movie{
+    background-color: aliceblue;
+ border-radius: 10px;
+ transition: all 2s ease;
+ overflow: hidden;
+background: transparent;
+ padding: 5px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ 
+ 
+}
+
+.movies{
+    display: grid;
+    grid-template-columns:repeat(5,1fr);
+    gap: 30px 10px;
+    padding: 10px 20px;
+    
+
+}
+img{
+    width: 215px;
+    height: 280px;
+    border-radius: 10px;
+    border: 1px solid rgba(187, 187, 187, 0.7);
+}h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: yellow;
+    text-decoration: none;
+    text-transform: uppercase ;
+    padding: 5px;
+   
+}
+a{
+    text-decoration: none;
+}
+.y-f{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 20px;
+}span{
+    font-size: 20px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+button{
+   height: 27px;
+   padding: 7px;
+   align-items: center;
+   text-align: center;
+   display: flex;
+   background: rgba(255, 255, 255, 0.2);
+   border: 1px solid rgba(167, 167, 167, 0.638);
+   outline: none      ;
+   border-radius: 10px;
+   color: white;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 15px;
+}
+.fa-heart{
+   
+    font-size: 20px;
+}
+.name{
+    width: 100%;
+    padding:5px 15px;
+}
+
